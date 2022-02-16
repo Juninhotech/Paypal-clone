@@ -1,0 +1,165 @@
+
+// Nav bar section
+@mixin nav-item {
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 0.875rem;
+    color: grey;
+    margin: 10px;
+    
+}
+
+.nav-item{
+    @include nav-item();
+}
+
+
+// anchor tags
+
+@mixin anch{ 
+    text-decoration: none;
+    font-family: "Montserrat";
+    font-size: 1rem;
+    font-weight: bold;
+} 
+
+@media(max-width: 360px){
+    .anch{
+        text-align: center;
+        display: block;
+    }
+}
+
+.anch{
+    @include anch();
+}
+
+
+@media(max-width: 360px){
+    .navtb1{
+        display: none;
+        visibility: hidden;
+        position: relative;
+       
+    }
+}
+
+.nav-item{
+    @include nav-item();
+}
+
+// navbar button
+
+@mixin navbtn {
+    font-family: "Montserrat";
+    border-radius: 40px;
+}
+.navbtn{
+    @include navbtn();
+}
+
+// h2
+
+@mixin h2 {
+    font-family: "Roboto";
+    font-size: 2.8rem;
+    color: #4A4A4A;
+    
+}
+
+
+h2{
+    @include h2();
+}
+
+@media(max-width: 360px){
+    h2{
+    text-align: center;
+    font-size: 1.6rem !important;
+    } 
+}
+
+
+
+@media(max-width: 360px){
+    .wholeSection{
+        text-align: center;
+    }
+}
+
+
+// h1
+
+h1{
+    font-size: 3.5rem !important;
+}
+
+@media(max-width: 360px){
+    h1{
+        font-size: 2.5rem !important;
+        text-align: center;
+    }
+}
+
+@media(max-width: 988px){
+    h1{
+        text-align: center;
+    }
+}
+
+
+// p tags
+
+@mixin p {
+    font-family: "montserrat";
+    color: #4A4A4A;
+    
+}
+
+p{
+    @include p();
+}
+
+
+@media(max-width: 360px){
+    .sp1{
+        display: none;
+        visibility: hidden;
+        position: relative;
+    }
+}
+
+@media(max-width: 360px){
+    .row{
+        text-align: center;
+    }
+}
+@media(max-width: 988px){
+    .row{
+        text-align: center;
+    }
+}
+
+.rowsec{
+    background-color: #F5F7FA;
+}
+
+.h4col{
+    text-align: center;
+    font-size: 2.2rem;
+    padding: 40px;
+}
+
+@media(max-width: 988px){
+    .h4col{
+        font-size: .5rem !important;
+        text-align: center;
+    }
+}
+
+
+@media(max-width: 360px){
+    .paypal_is_here{
+        text-align: center;
+    }
+}
