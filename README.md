@@ -23,4 +23,4 @@
         @ProfGreatWonder
 # Note
 ---
->>Kindly note that this is just a none functional cloned of paypal homepage,i could't go further than this because i don't have the legal right, developing the full website is intellectual theft which is an illegal act. All right and credit goes to paypal.
+>>Kindly note that this is just a none functional cloned of paypal homepage,i couldn't go further than this because i don't have the legal right, developing the full website is intellectual theft which is an illegal act. All right and credit goes to paypal.
