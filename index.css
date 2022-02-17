@@ -20,6 +20,12 @@
 }
 
 @media (max-width: 988px) {
+  .navtb1 {
+    display: none;
+    visibility: hidden;
+  }
+}
+@media (max-width: 988px) {
   .navbtn {
     margin-bottom: 20px;
     width: 80px;
